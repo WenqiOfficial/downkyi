@@ -44,12 +44,6 @@
 - 下载时卡在“混流中”：检查ffmpeg.exe是否可以正常工作。
 - 去水印：宽/高为水印的尺寸，X/Y为水印在图像中的位置（以左上角为原点），这四个数据可通过Photoshop获得。
 
-## 赞助
-
-如果这个项目对您有很大帮助，并且您希望支持该项目的开发和维护，请随时扫描一下二维码进行捐赠。非常感谢您的捐款，谢谢！
-
-![Alipay.png](https://s2.loli.net/2022/06/04/6LpfinSa5FoZmNB.png)![WeChat.png](https://s2.loli.net/2022/06/04/2yotOSvwmahPdXU.png)
-
 ## 开发
 
 ### x86 & x64
