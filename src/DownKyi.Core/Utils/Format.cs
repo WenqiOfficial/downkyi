@@ -171,9 +171,15 @@ namespace DownKyi.Core.Utils
         /// </summary>
         /// <param name="originName"></param>
         /// <returns></returns>
-        public static string FormatFileName(string originName)
+        public static string FormatFileName(string originName,int null_tag = 0)
         {
             string destName = originName;
+
+            // 处理单章节情况
+            if(null_tag == 1)
+            {
+                return "";
+            }
 
             // Windows中不能作为文件名的字符
             destName = destName.Replace("\\", " ");
@@ -201,7 +207,7 @@ namespace DownKyi.Core.Utils
             // 如果只有空白字符、dot符
             if (string.IsNullOrWhiteSpace(destName) || destName == ".")
             {
-                return "[empty title]";
+                return "[no title]";
             }
 
             // 移除前导和尾部的空白字符、dot符

@@ -11,8 +11,9 @@ namespace DownKyi.Models
 
         const int a = 1;
         const int b = 6;
-        const int c = 1;
+        const int c = 2;
 
+        // Version Tag
         public AppInfo()
         {
             VersionCode = a * 10000 + b * 100 + c;
@@ -20,7 +21,7 @@ namespace DownKyi.Models
 #if DEBUG
             VersionName = $"{a}.{b}.{c}-debug";
 #else
-            VersionName = $"{a}.{b}.{c}";
+            VersionName = $"{a}.{b}.{c}-patch";
 #endif
         }
 

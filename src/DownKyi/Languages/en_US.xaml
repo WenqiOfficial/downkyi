@@ -131,7 +131,7 @@
     <system:String x:Key="AutoUpdateWhenLaunch">启动时检查更新</system:String>
     <system:String x:Key="TipSettingUpdated">设置已更新~</system:String>
     <system:String x:Key="TipSettingFailed">设置失败！</system:String>
-    <system:String x:Key="ThirdParty">第三方</system:String>
+    <system:String x:Key="ThirdParty">使用到的第三方库</system:String>
     <system:String x:Key="ThirdPartyName">名称</system:String>
     <system:String x:Key="ThirdPartyAuthor">作者</system:String>
     <system:String x:Key="ThirdPartyVersion">版本</system:String>
@@ -143,6 +143,7 @@
     <system:String x:Key="Disclaimer4">4. 本软件提供的所有资源，仅可用作学习交流使用，未经原作者授权，禁止用于其他用途。请在下载24小时内删除。为尊重作者版权，请前往资源的原始发布网站观看，支持原创，谢谢。</system:String>
     <system:String x:Key="Disclaimer5">5. 任何涉及商业盈利目的均不得使用，否则产生的一切后果将由您自己承担。</system:String>
     <system:String x:Key="Disclaimer6">6. 因使用本软件产生的版权问题，软件作者概不负责。</system:String>
+    <system:String x:Key="Disclaimer7">7. 本程序已经停止开发，您当前使用的是由非官方维护的版本。(By Wenqi)</system:String>
 
     <!--  Tools  -->
     <system:String x:Key="BiliHelper">B站助手</system:String>

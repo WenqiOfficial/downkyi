@@ -92,7 +92,7 @@ namespace DownKyi.ViewModels.Settings
         /// </summary>
         private void ExecuteAppNameCommand()
         {
-            System.Diagnostics.Process.Start("https://github.com/leiurayer/downkyi");
+            System.Diagnostics.Process.Start("https://github.com/WenqiOfficial/downkyi");
         }
 
         // 检查更新事件
@@ -106,6 +106,7 @@ namespace DownKyi.ViewModels.Settings
         {
             //eventAggregator.GetEvent<MessageEvent>().Publish("开始查找更新，请稍后~");
             eventAggregator.GetEvent<MessageEvent>().Publish("请前往主页下载最新版~");
+            System.Diagnostics.Process.Start("https://github.com/WenqiOfficial/downkyi/releases");
         }
 
         // 意见反馈事件
@@ -117,7 +118,7 @@ namespace DownKyi.ViewModels.Settings
         /// </summary>
         private void ExecuteFeedbackCommand()
         {
-            System.Diagnostics.Process.Start("https://github.com/leiurayer/downkyi/issues");
+            System.Diagnostics.Process.Start("https://github.com/WenqiOfficial/downkyi/issues");
         }
 
         // 是否接收测试版更新事件

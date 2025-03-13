@@ -323,15 +323,20 @@ namespace DownKyi.Services.Download
 
                     // 如果只有一个视频章节，则不在命名中出现
                     string sectionName = string.Empty;
+                    int sectionNull = 0;
                     if (videoSections.Count > 1)
                     {
                         sectionName = section.Title;
                     }
+                    else
+                    {
+                        sectionNull = 1;
+                    }
 
-                    // 文件路径
-                    List<FileNamePart> fileNameParts = SettingsManager.GetInstance().GetFileNameParts();
+                        // 文件路径
+                        List<FileNamePart> fileNameParts = SettingsManager.GetInstance().GetFileNameParts();
                     FileName fileName = FileName.Builder(fileNameParts)
-                        .SetSection(Format.FormatFileName(sectionName))
+                        .SetSection(Format.FormatFileName(sectionName,sectionNull))
                         .SetMainTitle(Format.FormatFileName(videoInfoView.Title))
                         .SetPageTitle(Format.FormatFileName(page.Name))
                         .SetVideoZone(videoInfoView.VideoZone.Split('>')[0])
