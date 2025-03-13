@@ -1,18 +1,10 @@
 # 哔哩下载姬
 
 <p align="center">
-    <a href="https://github.com/leiurayer/downkyi/stargazers" style="text-decoration:none" >
-        <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/leiurayer/downkyi">
-    </a>
-    <a href="https://github.com/leiurayer/downkyi/network" style="text-decoration:none" >
-        <img alt="GitHub forks" src="https://img.shields.io/github/forks/leiurayer/downkyi">
-    </a>
-    <a href="https://github.com/leiurayer/downkyi/issues" style="text-decoration:none">
-        <img alt="GitHub issues" src="https://img.shields.io/github/issues/leiurayer/downkyi">
-    </a>
-    <a href="https://github.com/leiurayer/downkyi/blob/main/LICENSE" style="text-decoration:none" >
-        <img alt="GitHub" src="https://img.shields.io/github/license/leiurayer/downkyi">
-    </a>
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/leiurayer/downkyi">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/leiurayer/downkyi">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/leiurayer/downkyi">
+    <img alt="GitHub" src="https://img.shields.io/github/license/leiurayer/downkyi">
 </p>
 
 ![index.png](https://s2.loli.net/2022/06/04/dOsqtfBXceRgrj2.png)
@@ -24,14 +16,14 @@
 ## 下载
 
 <p align="left">
-    <a href="https://github.com/leiurayer/downkyi/releases/latest" style="text-decoration:none">
-       <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/leiurayer/downkyi">
+    <a href="https://github.com/WenqiOfficial/downkyi/releases/latest" style="text-decoration:none">
+       <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/WenqiOfficial/downkyi">
     </a>
-    <a href="https://github.com/leiurayer/downkyi/releases/latest" style="text-decoration:none">
-       <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/leiurayer/downkyi">
+    <a href="https://github.com/WenqiOfficial/downkyi/releases/latest" style="text-decoration:none">
+       <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/WenqiOfficial/downkyi">
     </a>
-    <a href="https://github.com/leiurayer/downkyi/releases" style="text-decoration:none">
-       <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/leiurayer/downkyi/total">
+    <a href="https://github.com/WenqiOfficial/downkyi/releases" style="text-decoration:none">
+       <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/WenqiOfficial/downkyi/total">
     </a>
 </p>
 
